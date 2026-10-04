@@ -29,8 +29,8 @@ public class Main {
         ModuleManager<String, ExecutableModule<String>> manager = new ModuleManager<>();
         manager.registerModuleNames(initialModules);
 
-        System.out.println("\n[INFO] Програма запущена (Lab 4: Generics & Wildcards).");
-        System.out.println("[INFO] Змініть рядок у TestModule.java та збережіть файл (Ctrl+S / Cmd+S).");
+        System.out.println("\n[INFO] Програма запущена.");
+        System.out.println("[INFO] Змініть рядок у TestModule.java та збережіть файл (Ctrl+S");
 
         while (true) {
             try {
@@ -66,7 +66,6 @@ public class Main {
             }
         }
     }
-
     private static boolean recompile(String javaFilePath, String outputDirPath) {
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
         if (compiler == null) {

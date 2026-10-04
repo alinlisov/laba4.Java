@@ -2,7 +2,7 @@ package lab4;
 public class TestModule implements ExecutableModule<String> {
     @Override
     public String execute() {
-        return "Всі зміни працюють на льоту! Версія 2.0";
+        return "Всі зміни працюють на льоту! Версія 3.0";
     }
     @Override
     public String getVersion() {
